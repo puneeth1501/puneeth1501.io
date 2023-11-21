@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Me</title>
+</head>
+<body>
+
+    <!-- Navigation Bar (optional, depending on your site structure) -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="work.html">Work Experience</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><button onclick="toggleDarkMode()">Toggle Dark Mode</button></li>
+        </ul>
+    </nav>
+<br>
+<br>
+<h2>Contact Me</h2>
+    <!-- Contact Form -->
+    <section id="contact">
+    
+        <form
+  action="https://formspree.io/f/xoqozbka"
+  method="POST"
+>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" placeholder="Your Name" required>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="Your Email" required>
+
+<label for="message">Message:</label>
+<textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+
+
+    <!-- Light/Dark Mode Script (include if needed) -->
+    <script src="script.js"></script>
+</body>
+</html>
