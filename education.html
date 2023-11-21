@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Education</title>
+    <style>
+        /* Your existing styles */
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="work.html">Work Experience</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><button onclick="toggleDarkMode()">Toggle Dark Mode</button></li>
+        </ul>
+    </nav>
+<br>
+<br>
+<h2>Education</h2>
+    <!-- Education Section -->
+    <section id="education">
+        <div class="education-entry" onclick="toggleDetails('details1')">
+            <h3>Saint Louis Univeristy</h3>
+            <p><strong>Degree:</strong> Masters in Computer science</p>
+            <p><strong>Duration:</strong> June 2023 - May 2025</p>
+            <p><strong>Achievements:</strong>Got Good CGPA  </p>
+            <div class="details" id="details1">
+                <p>Saint Louis University — located in St. Louis, Missouri, with a campus in Madrid, Spain, is one of the nation’s oldest and most prestigious Catholic universities. Founded in 1818, SLU is recognized for world-class academics, life-changing research, compassionate health care, and a strong commitment to faith and service.</p>
+            </div>
+        </div>
+    
+        <div class="education-entry" onclick="toggleDetails('details2')">
+            <h3>Kl university</h3>
+            <p><strong>Program:</strong> Bachelors in electroics and communication</p>
+            <p><strong>Duration:</strong> June 2018 - August 2022</p>
+            <p><strong>Skills Acquired:</strong> HTML, CSS, JavaScript, Node.js, React,java,solid understanding of the electronics</p>
+            <div class="details" id="details2">
+                <p>
+                    K L University is situated in a spacious 100-acre campus on the banks of Buckingham Canal of river Krishna, eight kilometers from Vijayawada city. Built within a rural setting of lush green fields, the institute is a virtual paradise of pristine nature and idyllic beauty.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://twitter.com/your_twitter_handle" target="_blank" rel="noopener noreferrer">Twitter</a>
+            <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <!-- Add more social media links as needed -->
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
