@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Portfolio</title>
+    <style>
+        /* Your existing styles */
+
+    
+    </style>
+</head>
+<body>
+
+    <!-- ... (Your existing HTML) ... -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="work.html">Work Experience</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><button onclick="toggleDarkMode()">Toggle Dark Mode</button></li>
+        </ul>
+    </nav>
+<br>
+<br>
+<br>
+<br>
+    <h2>Work and Volunteer Experience</h2>
+    <!-- Work and Volunteer Experience Section -->
+    <section id="work-experience">
+        
+        <div class="experience-entry" onclick="toggleDetails('company1')"  >
+            <h3>LtiMindtree</h3>
+            <img src="ltimindtree.png" alt="ltimindtree Logo">
+            <div class="details" id="company1">
+                <p><strong>Role:</strong> Web Developer</p>
+                <p><strong>Duration:</strong> July 2022 - June 2023</p>
+                <p><strong>Description:</strong> Worked on developing and maintaining responsive websites for clients using HTML, CSS, JavaScript,react</p>
+            </div>
+        </div>
+
+        <div class="experience-entry" onclick="toggleDetails('company2')"  >
+            <h3>Entuple Technologies</h3>
+            <img src="download.png" alt="Entuple Logo">
+            <div class="details" id="company2">
+                <p><strong>Role:</strong> Intern</p>
+                <p><strong>Duration:</strong> March 2021 - March 2022</p>
+                <p><strong>Description:</strong> completed the internshipas data analyst and did analysis on the telecom service dataset.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://twitter.com/your_twitter_handle" target="_blank" rel="noopener noreferrer">Twitter</a>
+            <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <!-- Add more social media links as needed -->
+        </div>
+    </footer>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
