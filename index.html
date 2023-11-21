@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Portfolio</title>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="work.html">Work Experience</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><button onclick="toggleDarkMode()">Toggle Dark Mode</button></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section with Background Image -->
+    <header>
+        <div class="profile-card">
+            <img src="WhatsApp Image 2023-11-20 at 9.30.12 PM.jpeg" alt="Dont download Image Please" id="about-image">
+            <div class="card-content">
+               
+                <div class="card-links">
+                    <a href="education.html">Education</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm puneeth Chowdary, I love programming.
+        </p>
+        <p>
+           I worked as a web developer, In my time as a software engineer I had worked closely with react library and created 50+ websites
+        </p>
+        <p>
+            I would love to connect with the many developers and See whats next.........
+        </p>
+        
+    </section>
+
+    <!-- Recent Works Section -->
+    <section id="recent-works">
+        <h2>Recent Works</h2>
+        <div class="experience" onclick="toggleDetails('project1')">
+            <h3>Project 1</h3>
+            <div class="details" id="project1">
+                <p><strong>Description:</strong> Developed a responsive e-commerce website for a client using HTML, CSS, and JavaScript.</p>
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                <p><strong>Duration:</strong> May 2022 - August 2022</p>
+            </div>
+        </div>
+
+        <div class="experience" onclick="toggleDetails('project2')">
+            <h3>Project 2</h3>
+            <div class="details" id="project2">
+                <p><strong>Description:</strong> Developed a web app for to-do.</p>
+                <p><strong>Technologies:</strong> React </p>
+                <p><strong>Duration:</strong> September 2023 - Present</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://twitter.com/your_twitter_handle" target="_blank" rel="noopener noreferrer">Twitter</a>
+            <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <!-- Add more social media links as needed -->
+        </div>
+    </footer>
+
+    <!-- Light/Dark Mode Script (include if needed) -->
+    <script src="script.js"></script>
+</body>
+</html>
